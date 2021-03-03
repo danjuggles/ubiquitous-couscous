@@ -26,8 +26,6 @@ import seaborn as sns; sns.set()
 import random
 import math
 
-import oandaTradeInstructions as ti
-#from tabulate import tabulate
 
 from oandaAccountInfo import account_id, access_token
 from tradeVariables import currencyPair, timeInterval, startDate, endDate, MA_intervals, maxTicks, emaThreshold, emaFast, emaSlow, lotSize, movingAverage, maxOpenTrades, tlPips, takeProfitMin
